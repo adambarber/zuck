@@ -8,8 +8,6 @@ module Zuck
                :account_id,
                :objective,
                :name,
-               :adgroups,
-               :campaign_group_status,
                :buying_type
 
     parent_object :ad_account, as: :account_id
